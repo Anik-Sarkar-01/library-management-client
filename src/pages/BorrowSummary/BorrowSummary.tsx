@@ -16,7 +16,7 @@ export default function BorrowSummary() {
               <th></th>
               <th>Book Title</th>
               <th>ISBN</th>
-              <th>Total Quantity</th>
+              <th>Total Quantity Borrowed</th>
             </tr>
           </thead>
           <tbody>

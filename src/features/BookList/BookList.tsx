@@ -75,15 +75,15 @@ const BookList = () => {
                                 <td>{book.copies}</td>
                                 <td>{book.available ? "Available" : "Unavailable"}</td>
                                 <td className="text-2xl flex gap-5">
-                                    <Tooltip placement="top" trigger={['hover']} overlay={<span>Delete</span>}>
-                                        <button onClick={() => handleDelete(book._id)}>
-                                            <MdDeleteForever className="text-red-500 hover:text-red-600" />
-                                        </button>
-                                    </Tooltip>
                                     <Tooltip placement="top" trigger={['hover']} overlay={<span>Edit</span>}>
                                         <Link to={`/edit-book/${book._id}`} >
                                             <FaEdit className="text-blue-500 hover:text-blue-600" />
                                         </Link>
+                                    </Tooltip>
+                                    <Tooltip placement="top" trigger={['hover']} overlay={<span>Delete</span>}>
+                                        <button onClick={() => handleDelete(book._id)}>
+                                            <MdDeleteForever className="text-red-500 hover:text-red-600" />
+                                        </button>
                                     </Tooltip>
                                     <Tooltip placement="top" trigger={['hover']} overlay={<span>Borrow</span>}>
                                         <Link to={`/borrow/${book._id}`}>
