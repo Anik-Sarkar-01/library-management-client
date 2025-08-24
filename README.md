@@ -1,6 +1,6 @@
-# 📖 Library Management (Frontend)
+# 📖 Library Management System (Frontend)
 
-Frontend of a simple **Library Management System** built with React, TypeScript, Redux Toolkit Query, Tailwind CSS and DaisyUI.
+Frontend of a **Library Management System** built with React, TypeScript, Redux Toolkit Query, Tailwind CSS and DaisyUI.
 
 ---
 
@@ -22,7 +22,7 @@ Frontend of a simple **Library Management System** built with React, TypeScript,
 - React + Vite + TypeScript  
 - Redux Toolkit (RTK Query)  
 - Tailwind CSS  
-- DaisyUi
+- DaisyUI
 - React Router DOM  
 
 ---
